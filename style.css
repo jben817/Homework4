@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    
+}
+
+.container {
+    margin: auto;
+    height: 200px;
+    width: 400px;
+    background-color: cornsilk;
+    font-size: medium;
+    border-color: #4666FF;
+    border-radius: 12px;
+    border-style: solid;
+    text-align: center;
+}
+
+#quizQuestions {
+    display: none;
+    text-align: center;
+}
+
+#possibleAnswer {
+    margin-top: 50px;
+}
+
+#highScore {
+    display: none ;
+}

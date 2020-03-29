@@ -4,8 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+<body> 
+    <div id = "firstBox" class="container">
+       <h1>Click start for timer and Javascript quiz to begin!</h1> 
+       <button id = "start" onclick="beginQuiz()">Start!</button>
+
+      </div>
+
+      <div id = "quizQuestions" class = "container">
+        <h2>Questions!</h2>
+
+          <div id = "numberOne">
+         </div>
+          <div id = "possibleAnswer">
+            <button id = "btn1">Answer 1</button>
+            <button id = "btn2">Answer 2</button>
+            <button id = "btn3">Answer 3</button>
+            
+
+          </div>
+      </div>
+      <div id = "highScore" class = "container"></div>
+      <script src="./script.js"></script>
+
 </body>
 </html>
