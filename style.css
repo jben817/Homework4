@@ -5,8 +5,8 @@ body {
 
 .container {
     margin: auto;
-    height: 200px;
-    width: 400px;
+    height: 300px;
+    width: 500px;
     background-color: cornsilk;
     font-size: medium;
     border-color: #4666FF;
@@ -24,6 +24,12 @@ body {
     margin-top: 50px;
 }
 
-#highScore {
+#rightWrong {
+    margin-top: 5px;
+    
+}
+#gameOver {
     display: none ;
+    font-size: 24px;
+    font-display: center;
 }

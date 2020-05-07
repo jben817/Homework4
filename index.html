@@ -12,13 +12,15 @@
        <button id = "start" onclick="beginQuiz()">Start!</button>
 
       </div>
-
       <div id = "quizQuestions" class = "container">
+        <div id="timer"></div>
         <h2>Questions!</h2>
         <h4>click on the correct answer</h4>
 
           <div id = "numberOne">
          </div>
+         <div id = "rightWrong"></div>
+
           <div id = "possibleAnswer">
             <button id = "btn1">Answer 1</button>
             <button id = "btn2">Answer 2</button>
@@ -27,7 +29,9 @@
 
           </div>
       </div>
-      <div id = "highScore" class = "container"></div>
+      <div id = "rightWrong"></div>
+
+      <div id = "gameOver" class = "container"></div>
       <script src="./script.js"></script>
 
 </body>
